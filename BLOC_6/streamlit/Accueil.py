@@ -4,7 +4,7 @@ import plotly.express as px
 import matplotlib as plt
 from PIL import Image
 #https://datanerd.tech/
-#docker run -it -p 8501:8501 streamlit pwd
+#docker run -p 8501:8501 streamlit_jobs
 #streamlit run streamlit_r.py --server.port=8501 --server.address=0.0.0.0 pwd
 #pip install streamlit-aggrid
 ### CONFIG
@@ -20,7 +20,7 @@ st.set_page_config(
 # Importation des données
 @st.cache_data
 def load_data():
-    data = pd.read_csv('/Users/cheyen/Desktop/JEDHA/FULLSTACK/final_project/streamlit/data/dataset_finalv13.csv')
+    data = pd.read_csv('/Users/cheyen/Desktop/jedha_fullstack/BLOC_6/streamlit/data/dataset_finalv13.csv')
     return data
 
 
@@ -49,9 +49,9 @@ st.markdown("<p style='text-align: center; padding: 50px; margin-bottom: 10px;'>
 st.markdown("<p style='text-align: center; margin-bottom: 10px; padding: 50px;'><span style='font-size: 20px;'>Notre application, DataMatch, utilise l'intelligence artificielle pour simplifier votre recherche d'emploi en vous permettant une recherche par cluster d'offres similaires en termes de compétences et de responsabilités. Découvrez des opportunités insoupçonnées et maximisez vos chances de succès grâce à notre vue d'ensemble complète du marché du travail de la data.</p>", unsafe_allow_html=True)
 
 # Wordcloud / clusters
-image1 = Image.open("/Users/cheyen/Desktop/JEDHA/FULLSTACK/final_project/streamlit/png/wordcloud1.png")
-image2 = Image.open("/Users/cheyen/Desktop/JEDHA/FULLSTACK/final_project/streamlit/png/wordcloud2_bis.png")
-image3 = Image.open("/Users/cheyen/Desktop/JEDHA/FULLSTACK/final_project/streamlit/png/wordcloud3.png")
+image1 = Image.open("/Users/cheyen/Desktop/jedha_fullstack/BLOC_6/streamlit/png/wordcloud1.png")
+image2 = Image.open("/Users/cheyen/Desktop/jedha_fullstack/BLOC_6/streamlit/png/wordcloud2_bis.png")
+image3 = Image.open("/Users/cheyen/Desktop/jedha_fullstack/BLOC_6/streamlit/png/wordcloud3.png")
 
 
 def plot_wordcloud_without_background(wordcloud):
