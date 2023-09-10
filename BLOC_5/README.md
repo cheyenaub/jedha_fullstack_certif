@@ -1,6 +1,6 @@
 # BLOC 5 : GETAROUND ANALYSIS, API& DASHBOARD DEPLOYMENT
 
-[VIDEO_LINK]()
+[VIDEO_LINK](https://share.vidyard.com/watch/KVaBagQNWfr3kw4hZXb67G?)
 
 Build a dashboard that will allow GetArounds services to determine the optimal delay between rentals to avoid users dissatisfaction.  
 Creation of an online API to let users know the best rental price per day for their car.
