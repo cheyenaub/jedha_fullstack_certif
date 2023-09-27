@@ -4,7 +4,7 @@ Jedha Fullstack : Certification projects
 
 1. Build and manage a Data Infrastructure
 
-Kayak
+**Kayak**
 
 Extracted hotels and weather data for specified cities through web scraping  
 
@@ -18,7 +18,7 @@ Technologies: APIs, Scrapy, Boto3, AWS S3, AWS RDS, SQL, SQLAlchemy, Plotly
 
 2. Exploratory Data Analysis (EDA)
 
-Speed Dating Dataset  
+**Speed Dating Dataset**
 
 Analyzed a speed dating dataset to identify key factors influencing the capacity of getting a date  
 
@@ -26,15 +26,15 @@ Technologies: Pandas, Numpy, Seaborn, Matplotlib, Plotly
 
 3. Predictive Analysis of Structured Data Using Artificial Intelligence
 
-Conversion Challenge 
+**Conversion Challenge**
 
 Developed machine learning models to predict newsletter conversion rates using imbalanced features  
 
-Walmart
+**Walmart**
 
 Estimated weekly sales in stores by constructing machine learning models  
 
-Uber
+**Uber**
 
 Created algorithms to optimize driver wait times by identifying high-demand zones during specific times of the day
 
@@ -42,25 +42,29 @@ Technologies: Pandas, Seaborn, Matplotlib, Scikit-learn
 
 4. Predictive Analysis of Unstructured Data Using Deep Learning
 
-AT&T Spam Detector 
+**AT&T Spam Detector**
 
 Developed a deep learning model to automatically detect spam messages based on their content  
 
-Technologies: TensorFlow, Keras, Transformers, Natural Language Processing (Tokenization, Encoding, Lemmatization, Embedding)
+Technologies: TensorFlow, Keras, Transformers, Natural Language Processing (Tokenization, Encoding, Lemmatization, Embedding)  
+
 
 5. Industrialization of Machine Learning Algorithms and Automation of Decision-Making Processes
 
-Getaround  
+**Getaround** 
 
 Designed a dashboard for a business team to optimize rental pricing by determining the optimal rental delay  
 
 Created an online API with a prediction endpoint for rental pricing  
 
-Technologies: Streamlit, Docker, FastAPI, Machine Learning, Heroku, GitHub
+Technologies: Streamlit, Docker, FastAPI, Machine Learning, Heroku, GitHub  
+
 
 6. Data Management Project Administration
 
-DataMatch (Team Project with François and Pauline)  
+**DataMatch** (Team Project with François and Pauline)
+
+
 Simplify job search process in the field of data by creating clusters which provide job offers based on skills (software, languages, etc.) and not job titles.  
 This will entail employing text processing techniques and clustering methods to categorize job descriptions based on their skill, software, and programming language requirements.  
 
